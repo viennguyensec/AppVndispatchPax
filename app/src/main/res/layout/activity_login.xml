@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/login_bg"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingRight="@dimen/guestPadding"
+            android:paddingLeft="@dimen/guestPadding"
+            android:paddingBottom="40dp"
+            >
+            <EditText
+                style="@style/InputDefault"
+                android:inputType="textEmailAddress"
+                android:id="@+id/inputEmailLogin"
+                android:hint="Email or Driver ID"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="285dp"/>
+            <EditText
+                style="@style/InputDefault"
+                android:inputType="textPassword"
+                android:id="@+id/inputPasswordLogin"
+                android:hint="Password"
+                android:layout_marginTop="14dp"
+                android:layout_below="@+id/inputEmailLogin" />
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Remember me"
+                android:id="@+id/cbRememberMe"
+                android:layout_gravity="center_horizontal"
+                android:checked="false"
+                android:textColor="#fff"
+                android:clickable="true"
+                android:longClickable="false"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/inputPasswordLogin"
+                android:layout_alignStart="@+id/inputPasswordLogin"
+                android:layout_marginLeft="-7dp"
+                android:buttonTint="#fff"
+                />
+            <Button
+                style="@style/MainButton"
+                android:text="SIGN IN"
+                android:id="@+id/btnSignIn"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_radius"
+                android:layout_below="@+id/cbRememberMe"
+                android:layout_alignStart="@+id/inputPasswordLogin" />
+            <TextView
+                style="@style/TextView"
+                android:layout_width="wrap_content"
+                android:text="Forgot Password"
+                android:id="@+id/toForgotPassword"
+                android:onClick="toForgotPassword"
+                android:clickable="true"
+                android:layout_marginTop="16dp"
+                android:layout_below="@+id/btnSignIn"
+                android:layout_alignStart="@+id/btnSignIn"
+                />
+
+            <TextView
+                style="@style/TextViewLarge"
+                android:layout_width="wrap_content"
+                android:text="Sign up"
+                android:onClick="toSignUp"
+                android:clickable="true"
+                android:id="@+id/toSignUp"
+                android:textStyle="bold"
+                android:layout_alignBottom="@+id/toForgotPassword"
+                android:layout_alignEnd="@+id/btnSignIn"
+                />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="65dp"
+            android:src="@mipmap/logo"
+            />
+
+    </RelativeLayout>
+
+
+
+</ScrollView>

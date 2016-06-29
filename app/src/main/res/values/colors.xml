@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimaryLight">#273757</color>
+    <color name="colorPrimaryDark">#1e2d4b</color>-->
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBase">#ff2956</color>
+    <color name="colorNav">#1e2d4b</color>
+    <!--<color name="colorBackground">#253559</color>-->
+    <!--<color name="colorBackgroundLight">#2d3d5e</color>-->
+    <color name="colorLabelInput">#409eff</color>
+    <color name="colorInputOpacity5">#7dffffff</color>
+    <color name="colorTextHint">#fefefe</color>
+    <color name="colorTransparent">#00ffffff</color>
+    <color name="colorTextDark">#424242</color>
+    <!--<color name="colorTextNav">#95a5a6</color>-->
+    <!--<color name="colorTextNavActive">#fff</color>-->
+    <!--<color name="colorIconNavTint">#95a5a6</color>-->
+    <color name="colorIconNavTintActive">#ff2956</color>
+    <color name="colorWhite">#fff</color>
+    <color name="colorTextGray">#c3c3c3</color>
+    <color name="white">#fff</color>
+    
+    <!--Booking view-->
+    <color name="colorPurple">#746cbf</color>
+    <color name="colorGreen">#38c662</color>
+    <color name="colorPink">#ff3d67</color>
+
+    <!--hr color-->
+    <color name="colorHr">#33808080</color>
+
+
+    <!--==========================
+    New design
+    ==============================-->
+    <color name="colorBackground">#2d333a</color>
+    <color name="colorBackgroundOpacity90">#dc2d333a</color>
+    <color name="colorBackgroundLight">#fafafa</color>
+    <color name="colorPrimaryLight">#2d333a</color>
+    <color name="colorPrimaryDark">#2d333a</color>
+
+    <color name="colorTextNav">#95a5a6</color>
+    <color name="colorTextNavActive">#fff</color>
+    <color name="colorIconNavTint">#95a5a6</color>
+    <color name="colorTextBase">#4b4b4b</color>
+    <color name="colorTextBaseGray">#7f7f7f</color>
+
+</resources>

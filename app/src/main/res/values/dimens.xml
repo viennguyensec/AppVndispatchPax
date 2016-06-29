@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="inputHeight">48.5dp</dimen>
+    <dimen name="inputPaddingStartEnd">18dp</dimen>
+    <dimen name="inputTextSize">15.5dp</dimen>
+    <dimen name="mainTextSize">15.5dp</dimen>
+    <dimen name="mainTextSizeLarge">18dp</dimen>
+    <dimen name="mainTextSizeXLarge">22dp</dimen>
+    <dimen name="actionBarSize">47dp</dimen>
+    <dimen name="sectionPaddingLeftRight">22dp</dimen>
+    <dimen name="sectionMarginBottom">12dp</dimen>
+
+    //padding for sign in, sign up, forgot password view
+    <dimen name="guestPadding">40dp</dimen>
+    //padding for inside app views
+    <dimen name="mainPadding">12dp</dimen>
+    //margin for main bottom btn
+    <dimen name="marginButtonButtom">50dp</dimen>
+</resources>

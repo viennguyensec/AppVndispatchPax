@@ -1,0 +1,99 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:colorBackground">@color/colorBackground</item>
+    </style>
+
+    <style name="NoActionBar" parent = "Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/colorBackground</item>
+        <item name="android:colorBackground">@color/colorBackground</item>
+    </style>
+    <style name="Fragment" parent = "Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/colorWhite</item>
+        <item name="android:colorBackground">@color/colorWhite</item>
+    </style>
+
+    <style name="SplashTheme" parent="NoActionBar">
+        <item name="android:windowBackground">@mipmap/splash</item>
+    </style>
+
+    <style name="ForgotPasswordDialog">
+        <item name="android:windowBackground">@color/colorBackground</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="FullHeightDialog" parent="Theme.AppCompat.DayNight.Dialog.Alert">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+
+    //Input
+    <style name = "InputDefault">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/inputHeight</item>
+        <item name="android:background">@drawable/input_radius</item>
+        <item name="android:textColor">@color/colorTextDark</item>
+        <item name="android:textColorHint">@color/colorTextHint</item>
+        <item name="android:textSize">@dimen/inputTextSize</item>
+        <item name="android:paddingStart">@dimen/inputPaddingStartEnd</item>
+        <item name="android:paddingEnd">@dimen/inputPaddingStartEnd</item>
+        <item name="android:layout_marginTop">13.5dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+    <style name = "InputInApp">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/input_radius_full_white</item>
+        <item name="android:textColor">@color/colorTextDark</item>
+        <item name="android:textColorHint">@color/colorTextGray</item>
+        <item name="android:textSize">@dimen/inputTextSize</item>
+        <item name="android:paddingStart">@dimen/inputPaddingStartEnd</item>
+        <item name="android:paddingEnd">@dimen/inputPaddingStartEnd</item>
+    </style>
+
+
+    //Text view
+    <style name="TextView" parent="NoActionBar">
+        <item name="android:textSize">@dimen/mainTextSize</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+    <style name="TextViewLarge" parent="NoActionBar">
+        <item name="android:textSize">@dimen/mainTextSizeLarge</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+    <style name="TextViewInline">
+        <item name="android:textSize">@dimen/mainTextSizeLarge</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+
+    //Button
+    <style name="MainButton" parent="NoActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">59dp</item>
+        <item name="android:layout_marginTop">13.5dp</item>
+        <item name="android:textSize">21dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/btn_radius</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+</resources>
